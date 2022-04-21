@@ -29,7 +29,7 @@ const contactsList = [
     ID: "3"
   },
   {
-    name: "Ishikawa",
+    name: "Ishikawa", 
     phone: "555 555-5555",
     image: "ishikawa.png",
     email: "ishikawa@secnine.com",
@@ -52,3 +52,24 @@ const contactsList = [
 ]
 
 // Your code goes here
+
+function display_all_contacts{
+  for (item in contactsList)
+    document.getElementById("script")innerHTML;
+    <div class="image">image</div>
+    <div class="name">name</div>
+    <div class="contactphone">phone</div>
+    <div class="contactemail">email</div>
+    <div class="ID">ID</div>
+}
+
+function display_single_contact{
+  for i in contactsList
+
+}
+
+document.addEventListener("click", myFunction);
+function myFunction() {
+  element.remove()
+}
+
